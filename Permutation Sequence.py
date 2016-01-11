@@ -27,7 +27,9 @@ class Solution(object):
 
         re = "".join(str(i) for i in self.result)
         print(re)
+
         return re
+    
 
 
 
