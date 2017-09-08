@@ -23,5 +23,5 @@ class Solution(object):
 
 
 s  =Solution()
-ls = s.fizzBuzz(15)
+ls = s.fizzBuzz(20)
 print(ls)
