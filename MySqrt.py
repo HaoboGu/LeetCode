@@ -13,4 +13,3 @@ class Solution(object):
 a = Solution()
 print(a.mySqrt(2))
 
-
