@@ -26,11 +26,11 @@ class Solution(object):
                 return True
         return False
 
-
-    def assertTree(self, s, t):
+    def isSame(self, s, t):
         if s == None and t == None:
             return True
-        if s != None and t!= None:
-            if s.val == t.val:
-                return self.assertTree(s.left, t.left) and self.assertTree(s.right, t.right)
-        return False
+        if s == None or t == None or s.val != t.val:
+            return False
+
+        return self.isSame(s.left, t.left) and self.isSame(s.right, t.right)
+
